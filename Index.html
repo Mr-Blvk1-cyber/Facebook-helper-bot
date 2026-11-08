@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facebook Helper</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+header {
+    background: #1877f2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+button {
+    background: #1877f2;
+    color: white;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+</style>
+</head>
+<body>
+<header>Facebook Helper</header>
+<div class="container">
+<div class="card">
+<h2>Welcome!</h2>
+<p>Your Facebook Helper Mini App</p>
+</div>
+<div class="card">
+<h3>📘 Official Facebook</h3>
+<button onclick="window.open('https://www.facebook.com')">
+Open Facebook
+</button>
+</div>
+<div class="card">
+<h3>🎬 Facebook Reels</h3>
+<p>Coming soon.</p>
+</div>
+<div class="card">
+<h3>📥 Video Downloader</h3>
+<p>Coming soon.</p>
+</div>
+<div class="card">
+<h3>👤 Facebook Pages</h3>
+<p>Coming soon.</p>
+</div>
+</div>
+<script>
+Telegram.WebApp.ready();
+Telegram.WebApp.expand();
+</script>
+</body>
+</html>
